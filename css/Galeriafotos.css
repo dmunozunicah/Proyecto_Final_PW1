@@ -1,0 +1,25 @@
+.galeria{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 40px;
+}
+
+.foto{
+  text-align: center;
+}
+
+.foto img{
+  width: 100%;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.foto img:hover{
+  transform: scale(1.05);
+}
+
+.foto p{
+  margin-top: 10px;
+  font-weight: bold;
+}
