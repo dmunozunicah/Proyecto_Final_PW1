@@ -184,6 +184,16 @@ footer{
   padding: 15px;
   margin-top: 40px;
 }
+.navbar .menu li a:link,
+.navbar .menu li a:visited,
+.navbar .menu li a:active{
+  color: #ffffff !important;
+  text-decoration: none !important;
+}
+
+.navbar .menu li a:hover{
+  color: #d14124 !important;
+}
 
 @media (max-width: 768px){
   .navbar{
