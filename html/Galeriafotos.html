@@ -3,76 +3,101 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Galería - Carajillo</title>
-  <link rel="stylesheet" href="../css/Galeriafotos.css">
-<script src="../js/galeriafotos.js"></script>
+  <title>Galería de Fotos - Carajillo</title>
+  <link rel="stylesheet" href="../css/galeriafotos.css">
 </head>
 <body>
 
   <header>
     <div class="header-content">
-      <img src="../RUTA/DEL/LOGO.jpg" alt="Logo Carajillo" class="logo">
+      <img src="../Imgs/Logo.jpeg" alt="Logo Carajillo" class="logo">
     </div>
   </header>
 
   <section class="hero">
     <div class="hero-text">
       <h1>Galería de Fotos</h1>
-      <p>Descubre momentos, platillos y espacios que hacen única la experiencia Carajillo.</p>
     </div>
   </section>
 
   <main class="contenedor">
-    <section class="galeria-section">
-      <h2>Nuestros Espacios y Sabores</h2>
-      <p class="intro">
-        Explora una selección de imágenes de nuestro restaurante, platillos especiales,
-        bebidas y eventos.
-      </p>
 
-      <div class="galeria">
-        <div class="item-galeria">
-          <img src="../RUTA/IMAGEN1.jpg" alt="Imagen 1">
+    <section class="galeria-bloque">
+      <h2>Platillos Más Pedidos</h2>
+      <p class="intro">Una selección de los platillos favoritos de nuestros clientes.</p>
+
+      <div class="galeria-grid">
+        <div class="card-galeria">
+          <img src="../Imgs/Plato_mas_Vendido.jpeg" alt="Platillo 1">
+          <p>Plato más vendido</p>
         </div>
 
-        <div class="item-galeria">
-          <img src="../RUTA/IMAGEN2.jpg" alt="Imagen 2">
+        <div class="card-galeria">
+          <img src="../Imgs/Coctel1.jpeg" alt="Platillo 2">
+          <p>Coctelería especial</p>
         </div>
 
-        <div class="item-galeria">
-          <img src="../RUTA/IMAGEN3.jpg" alt="Imagen 3">
+        <div class="card-galeria">
+          <img src="../Imgs/Platotipico.jpeg" alt="Platillo 3">
+          <p>Desayuno Carajillo</p>
         </div>
 
-        <div class="item-galeria">
-          <img src="../RUTA/IMAGEN4.jpg" alt="Imagen 4">
-        </div>
-
-        <div class="item-galeria">
-          <img src="../RUTA/IMAGEN5.jpg" alt="Imagen 5">
-        </div>
-
-        <div class="item-galeria">
-          <img src="../RUTA/IMAGEN6.jpg" alt="Imagen 6">
-        </div>
-
-        <div class="item-galeria">
-          <img src="../RUTA/IMAGEN7.jpg" alt="Imagen 7">
-        </div>
-
-        <div class="item-galeria">
-          <img src="../RUTA/IMAGEN8.jpg" alt="Imagen 8">
+        <div class="card-galeria">
+          <img src="../Imgs/Sundae.jpeg" alt="Platillo 4">
+          <p>Postre de la casa</p>
         </div>
       </div>
     </section>
-  </main>
 
-  <div class="visor" id="visor">
-    <span class="cerrar" id="cerrarVisor">&times;</span>
-    <img class="visor-img" id="imagenVisor" src="" alt="Vista ampliada">
-  </div>
+    <section class="galeria-bloque">
+      <h2>Eventos</h2>
+      <p class="intro">Momentos especiales compartidos en nuestro restaurante.</p>
+
+      <div class="galeria-grid">
+        <div class="card-galeria">
+          <img src="../Imgs/MesaRestaurante.jpeg" alt="Evento 1">
+          <p>Ambiente familiar</p>
+        </div>
+
+        <div class="card-galeria">
+          <img src="../Imgs/Evento2.jpeg" alt="Evento 2">
+          <p>Celebraciones</p>
+        </div>
+
+        <div class="card-galeria">
+          <img src="../Imgs/Bar.jpeg" alt="Evento 3">
+          <p>Música en vivo</p>
+        </div>
+
+        <div class="card-galeria">
+          <img src="../Imgs/Bar4.jpeg" alt="Evento 4">
+          <p>Variedad de bebidas</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="galeria-bloque">
+      <h2>Anuncios y Promociones</h2>
+      <p class="intro">Imágenes promocionales y anuncios especiales de Carajillo.</p>
+
+      <div class="galeria-grid promociones-grid">
+        <div class="card-galeria anuncio">
+          <img src="../Imgs/Anuncio.jpeg" alt="Anuncio 1">
+          <p>Promoción de desayunos</p>
+        </div>
+
+        <div class="card-galeria anuncio">
+          <img src="../Imgs/Anuncio2.jpeg" alt="Anuncio 2">
+          <p>Especial del chef</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
 
   <footer>
     <p>© 2026 Carajillo</p>
   </footer>
+
 </body>
 </html>
