@@ -1,3 +1,11 @@
+:root{
+  --verde: #40573e;
+  --naranja: #d14124;
+  --blanco: #ffffff;
+  --gris: #f5f5f5;
+  --negro: #111111;
+}
+
 *{
   margin: 0;
   padding: 0;
@@ -6,19 +14,23 @@
 }
 
 body{
-  background: #f5f5f5;
+  background: var(--gris);
+  color: var(--negro);
 }
 
 .navbar{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #333;
-  padding: 15px 40px;
+  background: var(--verde);
+  padding: 18px 40px;
 }
 
 .logo{
-  color: white;
+  color: var(--naranja);
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
 }
 
 .menu{
@@ -28,29 +40,32 @@ body{
 }
 
 .menu li a{
-  color: white;
+  color: var(--blanco);
   text-decoration: none;
   font-weight: bold;
   transition: 0.3s;
 }
 
 .menu li a:hover{
-  color: orange;
+  color: var(--naranja);
 }
 
 .hero{
   text-align: center;
   padding: 80px 20px;
-  background: #ddd;
+  background: var(--verde);
+  color: var(--blanco);
 }
 
 .hero h1{
   font-size: 40px;
   margin-bottom: 10px;
+  color: var(--naranja);
 }
 
 .hero p{
   font-size: 18px;
+  color: var(--blanco);
 }
 
 .contenido{
@@ -60,12 +75,13 @@ body{
 
 .contenido h2{
   margin-bottom: 15px;
+  color: var(--verde);
 }
 
 footer{
-  background: #333;
-  color: white;
+  background: var(--verde);
+  color: var(--blanco);
   text-align: center;
-  padding: 15px;
+  padding: 18px;
   margin-top: 40px;
 }
