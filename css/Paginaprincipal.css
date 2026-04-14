@@ -26,6 +26,35 @@ body{
   padding: 15px 40px;
   flex-wrap: wrap;
 }
+nav{
+  display: flex;
+}
+
+.menu{
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.menu li{
+  list-style: none;
+}
+
+.navbar a{
+  color: white !important;
+  text-decoration: none !important;
+  font-weight: bold;
+}
+
+.navbar a:visited{
+  color: white !important;
+}
+
+.navbar a:hover{
+  color: #d14124 !important;
+}
 
 .header-content{
   display: flex;
@@ -37,23 +66,6 @@ body{
   height: auto;
 }
 
-.menu{
-  list-style: none;
-  display: flex;
-  gap: 20px;
-  flex-wrap: wrap;
-}
-
-.menu li a{
-  color: var(--blanco);
-  text-decoration: none;
-  font-weight: bold;
-  transition: 0.3s;
-}
-
-.menu li a:hover{
-  color: var(--rojo);
-}
 
 .hero{
   text-align: center;
@@ -223,4 +235,5 @@ footer{
   footer{
     font-size: 0.9rem;
   }
+  
 }
